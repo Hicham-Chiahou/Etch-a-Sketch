@@ -106,7 +106,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Roadmap
 
-- day 1(11 Dec 2023) : 
+- day 1(11 Dec 2023) : 30 minutes.
+- day 2(13 Dec 2023) : 35 minutes.
 
 
 
@@ -151,7 +152,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Eric A. and Kathryn S. Meyer.](https://meyerweb.com/eric/tools/css/reset/)
 * []()
 * []()
 

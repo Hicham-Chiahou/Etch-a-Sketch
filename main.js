@@ -1,9 +1,9 @@
-let n = document.body.getElementsByTagName("p")
+let drawingPad = document.getElementById("drawing-pad")
 
 
 function main(){
 
-    console.log(n)
+    console.log(drawingPad)
 }
 
 main()
