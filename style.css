@@ -46,16 +46,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
 /* ------------------------------------  the drawing pad --------------------- */
 #drawing-pad{
-    background-color: red;
+    background-color: rgb(95, 93, 93);
     display: flex;
     flex-direction: column;
-    height: 150px;
+	flex-wrap: wrap;
+	width: 70vh;
+	height: 70vh;
 }
 
 .pixal{
     background-color: green;
-    width: 20%;
+   /* width: 50%; */
+	flex-grow:1;
 }
