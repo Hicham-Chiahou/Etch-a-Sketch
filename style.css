@@ -71,10 +71,11 @@ h1{
 	
 }
 
-.pixal{
+.pixel-row{
     background-color: green;
    /* width: 50%; */
 	flex-grow:1;
+	border: solid red 2px;
 }
 
 #pen-option{
