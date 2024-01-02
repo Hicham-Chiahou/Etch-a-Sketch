@@ -78,6 +78,6 @@ h1{
 	border: solid red 2px;
 }
 
-#pen-option{
-	
-}
+.pixel-column{
+	background-color: pink;
+}	

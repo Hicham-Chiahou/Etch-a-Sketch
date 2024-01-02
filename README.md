@@ -109,10 +109,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - day 1(11 Dec 2023) : 30 minutes.
 - day 2(13 Dec 2023) : 35 minutes.
 - day 3(15 Dec 2023) : 30 minutes.
-- day 4(16 Dec 2023) : 35 minutes.
+- day 4(16 Dec 2023) : 35 min
 - day 5(17 Dec 2023) : 35 minutes.
 - day 6(18 Dec 2023) : 30 minutes.
-- day 7(24 Dec 2023) : 1 hour.
+- day 7(24 Dec 2023) : 1 hor.
+- day 8(2 Jan 2024) : 20 minutes.
 
 
 
