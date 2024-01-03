@@ -72,12 +72,15 @@ h1{
 }
 
 .pixel-row{
-    background-color: green;
+    /* background-color: green; */
    /* width: 50%; */
 	flex-grow:1;
 	border: solid red 2px;
+	display: flex;
 }
 
 .pixel-column{
 	background-color: pink;
+	flex-grow: 1;
+	border: solid black 1px;
 }	
