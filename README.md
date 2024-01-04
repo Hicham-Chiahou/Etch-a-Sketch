@@ -115,6 +115,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - day 7(24 Dec 2023) : 1 hor.
 - day 8(2 Jan 2024) : 20 minutes.
 - day 9(3 Jan 2024) :40 minutes.
+- day 10(4 Jan 2024) :45 minutes.
 
 
 
