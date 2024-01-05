@@ -68,19 +68,21 @@ h1{
 	flex-wrap: wrap;
 	width: 70vh;
 	height: 70vh;
-	
+	border-top: solid black 1px;
+	border-left: solid black 1px;
 }
 
 .pixel-row{
     /* background-color: green; */
    /* width: 50%; */
 	flex-grow:1;
-	border: solid red 2px;
 	display: flex;
+	margin: 0px;
 }
 
 .pixel-column{
 	background-color: pink;
 	flex-grow: 1;
-	border: solid black 1px;
+	border-right: solid black 1px;
+	border-bottom: solid black 1px;
 }	
