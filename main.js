@@ -19,21 +19,20 @@ function main() {
     drawingPad.appendChild(row.cloneNode(true));
   }
 
-  console.log(gridSize); 
-   return  drawingPad.querySelectorAll("div.pixel-row")
+  let a = drawingPad.querySelectorAll("div.pixel-row")
+  console.log("grid size: " + a.length); 
 
 }
 
 
 function getGridSize(){
-  // gridSize = document.getElementById("grid-size").value;
+   allPixels = document.getElementById("grid-size").value;
   alert(allPixels)
-  console.log(allPixels.length)
+  console.log("all pixel lengh :" + allPixels.length)
   
   
 }
 
-allPixels.onclick = () => alert("hi")
-
+// allPixels.onclick = () => alert("hi")
 
 main();
