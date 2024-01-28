@@ -119,6 +119,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - day 11(5 Jan 2024) :35 minutes.
 - day 12(7 Jan 2024) :35 minutes.
 - day 13(11 Jan 2024) :20 minutes.
+- day 14(28 Jan 2024) :40 minutes.
 
 
 
