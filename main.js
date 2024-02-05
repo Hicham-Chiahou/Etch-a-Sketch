@@ -20,17 +20,25 @@ function main() {
 
   let a = drawingPad.querySelectorAll("div.pixel-row");
   console.log("grid size: " + a.length);
-  allDives.onclick = () => alert("hi");
+  // allDives.onclick = () => alert("hi");
 }
 
 function getGridSize() {
   allPixels = document.getElementById("grid-size").value;
   alert(allPixels);
   console.log("all pixel lengh :" + allPixels.length);
-  // all the dives are selected you neeed to loop over them to add a click event
+  // all the dives are selected you need to loop over them to add a click event
   allDives = document.querySelectorAll("#drawing-pad .pixel-row .pixel-column");
   console.log(allDives);
-  allDives.onclick = () => alert("hi");
+
+  // loop through each div and add a clickListener
+  for(const eachPixel of allDives){
+    eachPixel.onclick = () => {
+      eachPixel.style.backgroundColor = "blue"
+    
+    };
+
+  }
 }
 
 // 
