@@ -122,7 +122,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - day 14(28 Jan 2024) :40 minutes.
 - day 15(5 Feb 2024) :40 minutes.
 - day 16(6 Feb 2024) :40 minutes.
-- day 16(7 Feb 2024) :30 minutes.
+- day 17(7 Feb 2024) :30 minutes.
+- day 18(8 Feb 2024) :50 minutes.
 
 
 
