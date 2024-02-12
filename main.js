@@ -1,12 +1,12 @@
 let row = document.createElement("div");
 let singlePixel = document.createElement("div");
 
-let gridSize = document.getElementById("grid-size").value;
-if (gridSize == 0) {
-  gridSize = 1;
-} else {
-   gridSize = document.getElementById("grid-size").value;
-}
+let gridSize = 0;
+// if (gridSize == 0) {
+//   gridSize = 1;
+// } else {
+//    gridSize = document.getElementById("grid-size").value;
+// }
 
 row.classList.add("pixel-row");
 // row.innerText = "1"
@@ -29,12 +29,13 @@ function main(size) {
 }
 
 function getGridSize() {
+
   clearGrid(gridSize);
 
   if (gridSize > 0) {
     gridSize = 0;
   }
-  gridSize = document.getElementById("grid-size").value;
+  gridSize = Number(document.getElementById("grid-size").value);
 
   main(gridSize);
   // all the dives are selected you need to loop over them to add a click event
@@ -54,6 +55,7 @@ function clearGrid(size) {
   while (gridChild.hasChildNodes()) {
     gridChild.removeChild(gridChild.firstChild);
   }
+  
 }
 //
 main(gridSize);
